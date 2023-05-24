@@ -308,3 +308,110 @@
     padding-left: 21rem;
   }
   
+  .cover {
+    display: flex;
+    flex-direction: row;
+    padding-left: 10px;
+  }
+  
+  .skills {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-left: 20px;
+    list-style: none;
+    margin: 10px;
+    background-color: #dfe1e6;
+    margin-top: 20px;
+    padding-bottom: 15px;
+    padding-top: 15px;
+    border-radius: 10px;
+    gap: 10px;
+  }
+  
+  .framework {
+    border-bottom: 1.5px solid #dfe1e6;
+    padding: 25px 0;
+    display: flex;
+    justify-content: space-between;
+    padding-right: 60px;
+    list-style: none;
+    padding-left: 20px;
+  }
+  
+  footer {
+    background-color: #6070ff;
+    background-image: url(pimages/contact-form-bg.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: right;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 100px 0 0 0;
+    padding: 4rem 1rem;
+    gap: 3rem;
+    margin-top: 1rem;
+  }
+  
+  .lasting {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    max-width: 600px;
+  }
+  
+  .lasting h3 {
+    font-size: 40px;
+    font-weight: 700;
+    color: #fff;
+    text-align: center;
+  }
+  
+  .lasting p {
+    font-size: 20px;
+    font-weight: 400;
+    color: #ebebff;
+    text-align: center;
+  }
+  
+  .form ul {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+  }
+  
+  .form input,
+  textarea {
+    border: 2px solid #6070ff;
+    border-radius: 8px;
+    padding: 18px 16px;
+    width: 300px;
+    color: #b3bac5;
+  }
+  
+  .footer-btn {
+    background: #fff;
+    border-radius: 8px;
+    width: 142px;
+    height: 48px;
+    text-align: center;
+    padding: 12px 16px;
+    color: #6070ff;
+    font-size: 17px;
+    font-weight: 500;
+    border: none;
+    transition-duration: 0.4s;
+    cursor: pointer;
+  }
+  
+  .footer-btn:active {
+    background-color: #2230d2;
+    color: #fff;
+  }
+  
+  .footer-btn:hover {
+    background-color: #6070ff;
+    color: #fff;
+  }
